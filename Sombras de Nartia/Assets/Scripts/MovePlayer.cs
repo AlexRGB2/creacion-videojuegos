@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
@@ -20,10 +21,13 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
     private bool salto = false;
+    Animator animator;
+    public GameObject shadow;
 
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -41,7 +45,6 @@ public class MovePlayer : MonoBehaviour
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
         // Mover
         Mover(moveHorizontal * Time.fixedDeltaTime, salto);
-
         salto = false;
     }
 
@@ -50,7 +53,7 @@ public class MovePlayer : MonoBehaviour
         Vector3 velocidadObjetivo = new Vector2(mover, rb2D.velocity.y);
         rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocidadObjetivo, ref velocidad, suavisado);
 
-        if(mover >0 && !mirandoDerecha)
+        if (mover > 0 && !mirandoDerecha)
         {
             // Girar
             Girar();
@@ -59,11 +62,22 @@ public class MovePlayer : MonoBehaviour
             // Girar
             Girar();
         }
-        
-        if(saltar && enSuelo)
+
+        if (mover != 0)
         {
+            animator.SetBool("1_Move", true);
+        } else
+        {
+            animator.SetBool("1_Move", false);
+        }
+
+        if (enSuelo && saltar)
+        {
+            enSuelo = false;
             rb2D.AddForce(new Vector2(0f, fuerzaSalto));
         }
+
+        shadow.SetActive(enSuelo);
     }
 
     private void Girar()
