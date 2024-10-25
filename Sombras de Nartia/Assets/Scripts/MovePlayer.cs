@@ -6,6 +6,8 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     private Rigidbody2D rb2D;
+    public bool sePuedeMover = true;
+    [SerializeField] private Vector2 velocidadRebote;
 
     [Header("Movimiento")]
     private float moveHorizontal = 0f;
@@ -43,8 +45,11 @@ public class MovePlayer : MonoBehaviour
     private void FixedUpdate()
     {
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
-        // Mover
-        Mover(moveHorizontal * Time.fixedDeltaTime, salto);
+        if (sePuedeMover)
+        {
+            Mover(moveHorizontal * Time.fixedDeltaTime, salto);
+        }
+        
         salto = false;
     }
 
@@ -78,6 +83,11 @@ public class MovePlayer : MonoBehaviour
         }
 
         shadow.SetActive(enSuelo);
+    }
+
+    public void Rebote(Vector2 puntoGolpe)
+    {
+        rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
     }
 
     private void Girar()

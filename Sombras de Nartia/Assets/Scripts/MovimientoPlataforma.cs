@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MovimientoPlataforma : MonoBehaviour
 {
+    [SerializeField] private float salud;
     [SerializeField] private float velocidad;
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private float distancia;
@@ -31,6 +32,7 @@ public class MovimientoPlataforma : MonoBehaviour
             //Girar
             Girar();
         }
+
     }
 
     private void Girar()
