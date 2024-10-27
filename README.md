@@ -103,6 +103,15 @@ Tras la muerte de su padre en una batalla contra la oscuridad creciente, Brinn h
 - Proyecto de la parte 6: [Prototipo05P2](./lecciones/assets/Prototipo05P2.unitypackage)
 - Evidencia de la parte 6: [Evidencia05P2](./lecciones/evidencia/Prototipo05P2.pdf)
 
+### Challenge 1
+
+- Proyecto del Challenge 1: [Challenge1](./lecciones/assets/Challenge1.unitypackage)
+
+### Challenge 2
+
+- Proyecto del Challenge 2: [Challenge2](./lecciones/assets/Challenge2.unitypackage)
+- Evidencia del Challenge 2: [EvidenciaChallenge2](./lecciones/evidencia/Challenge02.pdf)
+
 ## Planificación
 
 ![Plan](./lecciones/Desarrollo%20de%20Videojuegos.png)
