@@ -49,6 +49,6 @@ public class MenuPausa : MonoBehaviour
 
     public void Cerrar()
     {
-        Application.Quit();
+        SceneManager.LoadSceneAsync("MainMenu");
     }
 }

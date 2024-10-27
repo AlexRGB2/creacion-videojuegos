@@ -27,6 +27,10 @@ public class CombateJugador : MonoBehaviour
         StartCoroutine(PerderControl());
         StartCoroutine(DesactivarColision());
         movePlayer.Rebote(posicion);
+        if (vida <= 0)
+        {
+            StartCoroutine(Morir());
+        }
     }
 
     private IEnumerator DesactivarColision()
@@ -41,5 +45,13 @@ public class CombateJugador : MonoBehaviour
         movePlayer.sePuedeMover = false;
         yield return new WaitForSeconds(tiempoPerdidaControl);
         movePlayer.sePuedeMover = true;
+    }
+
+    private IEnumerator Morir()
+    {
+        movePlayer.sePuedeMover = false;
+        animator.SetTrigger("4_Death");
+        yield return new WaitForSeconds(0.6f);
+        Destroy(gameObject);
     }
 }

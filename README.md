@@ -91,10 +91,10 @@ Tras la muerte de su padre en una batalla contra la oscuridad creciente, Brinn h
 
 ### Prototipo 4
 
-- Proyecto de la parte 3: [Prototipo04](./lecciones/assets/Prototipo04P1.unitypackage)
-- Evidencia de la parte 3: [Evidencia04](./lecciones/evidencia/Prototipo04P1.pdf)
-- Proyecto de la parte 4:
-- Evidencia de la parte 4:
+- Proyecto de la parte 3: [Prototipo04P1](./lecciones/assets/Prototipo04P1.unitypackage)
+- Evidencia de la parte 3: [Evidencia04P1](./lecciones/evidencia/Prototipo04P1.pdf)
+- Proyecto de la parte 4: [Prototipo04P2](./lecciones/assets/Prototipo04P2.unitypackage)
+- Evidencia de la parte 4: [Evidencia04P2](./lecciones/evidencia/Prototipo04P2.pdf)
 
 ### Prototipo 5
 

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\scripts\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\scripts\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\CombateJugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CombateJugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\scripts\\movimientoplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimientoplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
+              "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T23:24:18.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CombateJugador.cs",
+              "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\CombateJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombateJugador.cs",
+              "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\CombateJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombateJugador.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwDUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T22:55:54.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Enemy.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy.cs",
@@ -42,37 +76,35 @@
               "RelativeToolTip": "Assets\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:35:37.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T07:35:37.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CombateJugador.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\CombateJugador.cs",
               "RelativeDocumentMoniker": "Assets\\CombateJugador.cs",
               "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\CombateJugador.cs",
               "RelativeToolTip": "Assets\\CombateJugador.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:29:58.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T07:29:58.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MenuPausa.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MenuPausa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPausa.cs",
               "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MenuPausa.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuPausa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:39:41.293Z"
+              "WhenOpened": "2024-10-25T06:39:41.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MovimientoPlataforma.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MovimientoPlataforma.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoPlataforma.cs",
@@ -84,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MovePlayer.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MovePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovePlayer.cs",
