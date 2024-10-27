@@ -100,8 +100,8 @@ Tras la muerte de su padre en una batalla contra la oscuridad creciente, Brinn h
 
 - Proyecto de la parte 5: [Prototipo05P1](./lecciones/assets/Prototipo05P1.unitypackage)
 - Evidencia de la parte 5: [Evidencia05P1](./lecciones/evidencia/Prototipo05P1.pdf)
-- Proyecto de la parte 6:
-- Evidencia de la parte 6:
+- Proyecto de la parte 6: [Prototipo05P2](./lecciones/assets/Prototipo05P2.unitypackage)
+- Evidencia de la parte 6: [Evidencia05P2](./lecciones/evidencia/Prototipo05P2.pdf)
 
 ## Planificación
 
