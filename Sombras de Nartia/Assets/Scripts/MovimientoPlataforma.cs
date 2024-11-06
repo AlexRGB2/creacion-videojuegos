@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MovimientoPlataforma : MonoBehaviour
 {
-    [SerializeField] private float salud;
     [SerializeField] private float velocidad;
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private float distancia;
@@ -12,6 +11,7 @@ public class MovimientoPlataforma : MonoBehaviour
     Animator animator;
     private Rigidbody2D rb2D;
     [SerializeField] private LayerMask queEsSuelo;
+    public bool sePuedeMover = true;
 
     private void Start()
     {
@@ -21,18 +21,29 @@ public class MovimientoPlataforma : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (sePuedeMover)
+        {
+            Mover();
+        } else
+        {
+            animator.SetBool("1_Move", false);
+        }
+    }
+
+    private void Mover()
+    {
         RaycastHit2D informacionSuelo = Physics2D.Raycast(controladorSuelo.position, Vector2.down, distancia, queEsSuelo);
 
         rb2D.velocity = new Vector2(velocidad, rb2D.velocity.y);
 
-        animator.SetBool("1_Move", true);
+        // Activa la animación de movimiento solo si el enemigo realmente está moviéndose
+        animator.SetBool("1_Move", Mathf.Abs(rb2D.velocity.x) > 0);
 
-        if (informacionSuelo == false)
+        if (!informacionSuelo)
         {
-            //Girar
+            // Girar si no hay suelo
             Girar();
         }
-
     }
 
     private void Girar()

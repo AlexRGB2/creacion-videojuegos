@@ -112,9 +112,9 @@ Tras la muerte de su padre en una batalla contra la oscuridad creciente, Brinn h
 - Proyecto del Challenge 2: [Challenge2](./lecciones/assets/Challenge2.unitypackage)
 - Evidencia del Challenge 2: [EvidenciaChallenge2](./lecciones/evidencia/Challenge02.pdf)
 
-## Planificación
+## Trello
 
-![Plan](./lecciones/Desarrollo%20de%20Videojuegos.png)
+![Plan](./lecciones/tablero_trello.png)
 
 ## Autores
 

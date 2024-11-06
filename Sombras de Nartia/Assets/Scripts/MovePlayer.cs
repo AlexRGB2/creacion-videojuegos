@@ -14,7 +14,7 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private float velocidadMov;
     [Range(0, 0.3f)][SerializeField] private float suavisado;
     private Vector3 velocidad = Vector3.zero;
-    private bool mirandoDerecha = false;
+    private bool mirandoDerecha = true;
 
     [Header("Salto")]
     [SerializeField] private float fuerzaSalto;
