@@ -61,12 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SPUM\Script\Data\SPUM_MatchingList.cs" />
+    <Compile Include="Assets\SeleccionPersonaje\Scripts\InicioJugador.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\CombateCaC.cs" />
     <Compile Include="Assets\SPUM\Sample\Script\PlayerManager.cs" />
     <Compile Include="Assets\SPUM\Script\Data\SPUM_Prefabs.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlataforma.cs" />
     <Compile Include="Assets\Scripts\DamageSistem.cs" />
+    <Compile Include="Assets\SeleccionPersonaje\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameObjectExporter.cs" />
     <Compile Include="Assets\Scripts\MenuPausa.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
@@ -74,8 +77,11 @@
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\SPUM\Script\Data\PreviewMatchingElement.cs" />
+    <Compile Include="Assets\SeleccionPersonaje\Scripts\MenuSeleccionPersonaje.cs" />
+    <Compile Include="Assets\SeleccionPersonaje\Scripts\MenuOpciones.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\SPUM\Script\Data\SpumTextureData.cs" />
+    <Compile Include="Assets\SeleccionPersonaje\Scripts\SelectPlayer.cs" />
     <Compile Include="Assets\SPUM\Script\Data\SpritePos.cs" />
     <Compile Include="Assets\SPUM\Sample\Script\PlayerObj.cs" />
     <Compile Include="Assets\SPUM\Script\Data\SpumPackage.cs" />

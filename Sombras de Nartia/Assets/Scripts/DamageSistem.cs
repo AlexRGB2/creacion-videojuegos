@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -49,6 +50,42 @@ public class DamageSistem : MonoBehaviour
     {
         movePlayer = GetComponent<MovePlayer>();
         animator = GetComponent<Animator>();
+        string objectName = "DeathScreen";
+        GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+        foreach (GameObject obj in allObjects)
+        {
+            if (obj.name == objectName)
+            {
+                deathScreen = obj;
+                break;
+            }
+        }
+
+        hearts = new Image[5];
+
+        for (int i = 1; i <= hearts.Length; i++)
+        {
+            // Buscar el GameObject por nombre
+            string heartName = "Corazon" + i; // Construye el nombre dinámicamente
+            GameObject heartObject = GameObject.Find(heartName);
+
+            if (heartObject != null)
+            {
+                // Obtener el componente Image y agregarlo al array
+                Image heartImage = heartObject.GetComponent<Image>();
+
+                if (heartImage != null)
+                {
+                    hearts[i - 1] = heartImage;
+                }
+                else
+                {
+                }
+            }
+            else
+            {
+            }
+        }
     }
 
     public void TakeDamage(float damage)
