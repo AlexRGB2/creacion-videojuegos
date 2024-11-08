@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55b27e2a15307941b0b67e2eeab5843, type: 3}
+  m_Name: Elf1
+  m_EditorClassIdentifier: 
+  player: {fileID: 6311861856165175232, guid: 22278203e8d524358894260c10cb0a79, type: 3}
+  imagen: {fileID: 21300000, guid: 61a21a847d506a44e8186ff79018cd28, type: 3}
+  nombre: Brinn
