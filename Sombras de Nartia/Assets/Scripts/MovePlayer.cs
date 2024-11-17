@@ -26,10 +26,13 @@ public class MovePlayer : MonoBehaviour
     Animator animator;
     public GameObject shadow;
 
+    private DamageSistem damageSistem;
+
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        damageSistem = GetComponent<DamageSistem>();
     }
 
     private void Update()
@@ -40,6 +43,8 @@ public class MovePlayer : MonoBehaviour
         {
             salto = true;
         }
+
+        CheckOutOfBounds();
     }
 
     private void FixedUpdate()
@@ -83,6 +88,18 @@ public class MovePlayer : MonoBehaviour
         }
 
         shadow.SetActive(enSuelo);
+    }
+    private void CheckOutOfBounds()
+    {
+        // Obtener las coordenadas de la cámara
+        Camera mainCamera = Camera.main;
+        Vector3 screenBottomLeft = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, mainCamera.nearClipPlane));
+
+        // Comprobar si el jugador está por debajo del límite inferior de la cámara
+        if (transform.position.y < screenBottomLeft.y)
+        {
+            StartCoroutine(damageSistem.Morir());
+        }
     }
 
     public void Rebote(Vector2 puntoGolpe)

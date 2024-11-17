@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - DeathScreen
+  - Object
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Objects
   - Player
   - Enemies
-  - 
+  - CrystalFinal
   - 
   - 
   - 

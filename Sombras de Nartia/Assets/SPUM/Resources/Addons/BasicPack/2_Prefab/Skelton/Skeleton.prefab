@@ -3783,6 +3783,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &7042100169057975308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2552943671935381804}
+  m_Layer: 8
+  m_Name: ControladorPared
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2552943671935381804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042100169057975308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.604, y: 0.284, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3363852483307139326}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7171026044035063985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4228,7 @@ Transform:
   - {fileID: 3275127395913849257}
   - {fileID: 6613302740178458747}
   - {fileID: 5036353356777380350}
+  - {fileID: 2552943671935381804}
   m_Father: {fileID: 5375047960093657315}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!210 &6451036946996704392
@@ -4308,6 +4340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 1.66
   controladorSuelo: {fileID: 5036353356777380350}
+  controladorPared: {fileID: 2552943671935381804}
   distancia: 1.01
   moviendoDerecha: 0
   queEsSuelo:
@@ -4329,6 +4362,7 @@ MonoBehaviour:
   vida: 2
   tiempoPerdidaControl: 0.5
   damage: 1
+  puntos: 100
 --- !u!1 &8029356092738133153
 GameObject:
   m_ObjectHideFlags: 0

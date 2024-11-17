@@ -17,6 +17,7 @@ public class SceneLoader : MonoBehaviour
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(levelIndex);
         loadingScreen.SetActive(true);
+        Time.timeScale = 1f;
         while (!operation.isDone)
         {
             loadinBar.value = operation.progress;

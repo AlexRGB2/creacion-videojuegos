@@ -20,6 +20,7 @@ public class DamageSistem : MonoBehaviour
     private void Update()
     {
 
+
         if(vida > numOfHearts)
         {
             vida = numOfHearts;
@@ -120,13 +121,14 @@ public class DamageSistem : MonoBehaviour
         movePlayer.sePuedeMover = true;
     }
 
-    private IEnumerator Morir()
+    public IEnumerator Morir()
     {
         movePlayer.sePuedeMover = false;
         animator.SetTrigger("4_Death");
         yield return new WaitForSeconds(0.6f);
         Destroy(gameObject);
         deathScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public IEnumerator Ataque()
