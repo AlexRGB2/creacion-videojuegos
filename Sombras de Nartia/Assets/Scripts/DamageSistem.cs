@@ -20,7 +20,6 @@ public class DamageSistem : MonoBehaviour
     private void Update()
     {
 
-
         if(vida > numOfHearts)
         {
             vida = numOfHearts;
@@ -104,6 +103,15 @@ public class DamageSistem : MonoBehaviour
         if (vida <= 0)
         {
             StartCoroutine(Morir());
+        }
+    }
+
+    public void Heal(float amount)
+    {
+        vida += amount;
+        if (vida > numOfHearts)
+        {
+            vida = numOfHearts;
         }
     }
 
