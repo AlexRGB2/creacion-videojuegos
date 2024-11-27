@@ -20,8 +20,9 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         movimientoPlataforma = GetComponent<MovimientoPlataforma>();
         rb2D = GetComponent<Rigidbody2D>();
-
+        Physics2D.IgnoreLayerCollision(7, 8, false);
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))

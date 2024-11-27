@@ -9,6 +9,9 @@ public class InicioJugador : MonoBehaviour
 
     private void Start()
     {
+        // Activa la colisión entre las capas 7 (Jugador) y 8 (Enemigo)
+        Physics2D.IgnoreLayerCollision(7, 8, false);
+
         // Obtén el índice del jugador desde PlayerPrefs
         int indexJugador = PlayerPrefs.GetInt("JugadorIndex");
 
