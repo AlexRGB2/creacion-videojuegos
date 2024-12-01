@@ -5669,7 +5669,7 @@ Transform:
   m_GameObject: {fileID: 337466402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76916885, y: -24.852446, z: -9.999847}
+  m_LocalPosition: {x: 1.0313702, y: -24.852373, z: -9.999847}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7183,7 +7183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: 24}
+  m_AnchoredPosition: {x: -165, y: 13}
   m_SizeDelta: {x: 433.2504, y: 81.2344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781345779
@@ -10129,9 +10129,9 @@ RectTransform:
   - {fileID: 315342535}
   - {fileID: 153100021}
   - {fileID: 923786722}
+  - {fileID: 975254130}
   - {fileID: 1383129654}
   - {fileID: 160031995}
-  - {fileID: 975254130}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10483,6 +10483,7 @@ GameObject:
   - component: {fileID: 1637436338}
   - component: {fileID: 1637436337}
   - component: {fileID: 1637436336}
+  - component: {fileID: 1637436339}
   m_Layer: 5
   m_Name: BotonPausa
   m_TagString: Untagged
@@ -10604,6 +10605,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637436334}
   m_CullTransparentMesh: 1
+--- !u!114 &1637436339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637436334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Keyboard>/escape
 --- !u!1 &1685638270
 GameObject:
   m_ObjectHideFlags: 0

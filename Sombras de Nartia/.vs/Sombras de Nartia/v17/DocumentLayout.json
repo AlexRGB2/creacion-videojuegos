@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\inputactions\\platformuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|a:\\uni\\ingecuatri5\\creaci\u00F3n de videojuegos\\unidad 2\\creacion-videojuegos\\sombras de nartia\\assets\\scripts\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\seleccionpersonaje\\scripts\\resolutiondropdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\seleccionpersonaje\\scripts\\resolutiondropdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\assets\\inputactions\\platformuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6608C092-675E-BBD5-7055-737698CAAE91}|Assembly-CSharp.csproj|solutionrelative:assets\\inputactions\\platformuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,6 +39,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MenuPausa.cs",
+              "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MenuPausa.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPausa.cs",
+              "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MenuPausa.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuPausa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:00:44.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResolutionDropdown.cs",
+              "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\SeleccionPersonaje\\Scripts\\ResolutionDropdown.cs",
+              "RelativeDocumentMoniker": "Assets\\SeleccionPersonaje\\Scripts\\ResolutionDropdown.cs",
+              "ToolTip": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\SeleccionPersonaje\\Scripts\\ResolutionDropdown.cs",
+              "RelativeToolTip": "Assets\\SeleccionPersonaje\\Scripts\\ResolutionDropdown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:57:42.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlatformUIManager.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\InputActions\\PlatformUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\InputActions\\PlatformUIManager.cs",
@@ -38,12 +71,11 @@
               "RelativeToolTip": "Assets\\InputActions\\PlatformUIManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:36:11.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T01:36:11.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CombateCaC.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\CombateCaC.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CombateCaC.cs",
@@ -55,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MovePlayer.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\MovePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovePlayer.cs",
@@ -67,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WinTrigger.cs",
               "DocumentMoniker": "A:\\Uni\\IngeCuatri5\\Creaci\u00F3n de Videojuegos\\Unidad 2\\creacion-videojuegos\\Sombras de Nartia\\Assets\\Scripts\\WinTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinTrigger.cs",
