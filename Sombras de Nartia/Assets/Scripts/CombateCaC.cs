@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CombateCaC : MonoBehaviour
 {
@@ -12,10 +13,27 @@ public class CombateCaC : MonoBehaviour
     [SerializeField] private float tiempoEntreAtaque;
     [SerializeField] private float tiempoSiguienteAtaque;
 
+    private EntradasMov inputActions;
+    private void Awake()
+    {
+        inputActions = new EntradasMov();
+    }
+
+    private void OnEnable()
+    {
+        inputActions.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputActions.Disable();
+    }
+
     private void Start()
     {
         animator = GetComponent<Animator>();
         damageSistem = GetComponent<DamageSistem>();
+        inputActions.Movimiento.Fire1.performed += contexto => Attack(contexto);
     }
 
     private void Update()
@@ -24,8 +42,11 @@ public class CombateCaC : MonoBehaviour
         {
             tiempoSiguienteAtaque -= Time.deltaTime;
         }
+    }
 
-        if (Input.GetButtonDown("Fire1") && tiempoSiguienteAtaque <= 0)
+    private void Attack(InputAction.CallbackContext context)
+    {
+        if(tiempoSiguienteAtaque <= 0)
         {
             Golpe();
             tiempoSiguienteAtaque = tiempoEntreAtaque;

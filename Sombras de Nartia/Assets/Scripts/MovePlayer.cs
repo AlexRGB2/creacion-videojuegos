@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -28,23 +29,41 @@ public class MovePlayer : MonoBehaviour
 
     private DamageSistem damageSistem;
 
+    private EntradasMov inputActions;
+
+    private void Awake()
+    {
+        inputActions = new EntradasMov();
+    }
+
+    private void OnEnable()
+    {
+        inputActions.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputActions.Disable();
+    }
+
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         damageSistem = GetComponent<DamageSistem>();
+        inputActions.Movimiento.Salto.performed += contexto => Salto(contexto);
     }
 
     private void Update()
     {
-        moveHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMov;
-
-        if(Input.GetButtonDown("Jump"))
-        {
-            salto = true;
-        }
+        moveHorizontal = inputActions.Movimiento.Horizontal.ReadValue<float>() * velocidadMov;
 
         CheckOutOfBounds();
+    }
+
+    private void Salto(InputAction.CallbackContext context)
+    {
+        salto = true;
     }
 
     private void FixedUpdate()
